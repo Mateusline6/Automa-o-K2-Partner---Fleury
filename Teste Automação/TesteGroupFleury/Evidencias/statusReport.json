@@ -1,0 +1,95 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-17T01:38:10.678Z",
+        "line": 8,
+        "name": "Pesquisando Unidades",
+        "description": "",
+        "id": "pesquisar-unidades;pesquisando-unidades",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11143588100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Que esteja no site \"https://www.fleury.com.br\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.fleury.com.br\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.Tests.que_esteja_no_site(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 779520000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Clique em unidades",
+            "match": {
+              "location": "Steps.Tests.clique_em_unidades()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3069111100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Selecionar unidade por facilidade",
+            "match": {
+              "location": "Steps.Tests.selecionar_unidade_por_facilidade()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12017133500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Valido nome da unidade",
+            "match": {
+              "location": "Steps.Tests.valido_nome_da_unidade()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Pesquisar unidades",
+    "description": "   Eu como usuario quero pesquisar unidades de atendimento",
+    "id": "pesquisar-unidades",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/EstoriaUm.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
